@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { authSelectors, authOperations } from '../../redux/auth';
-import defaultAvatar from './default-avatar.png';
+// import defaultAvatar from './default-avatar.png';
 import { FcBusinessman } from 'react-icons/fc';
 
 const styles = {
@@ -8,9 +8,9 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
   },
-  avatar: {
-    marginRight: 4,
-  },
+  // avatar: {
+  //   marginRight: 4,
+  // },
   name: {
     fontWeight: 700,
     marginRight: 12,
@@ -20,7 +20,7 @@ const styles = {
 export default function UserMenu() {
   const dispatch = useDispatch();
   const name = useSelector(authSelectors.getUsername);
-  const avatar = defaultAvatar;
+  // const avatar = defaultAvatar;
 
   return (
     <div style={styles.container}>

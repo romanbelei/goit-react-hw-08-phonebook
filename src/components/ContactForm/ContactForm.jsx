@@ -1,12 +1,8 @@
-import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { nanoid } from 'nanoid';
-// import { addContactsuccess } from '../../redux/contacts/contacts-actions';
 import { contactsOperations } from '../../redux/contacts';
 import { useForm } from 'react-hook-form';
 import styles from './ContactForm.module.css';
 
-// export default function ContactForm(onClose) {
 const ContactForm = ({ handleClick }) => {
   const dispath = useDispatch();
   const {
