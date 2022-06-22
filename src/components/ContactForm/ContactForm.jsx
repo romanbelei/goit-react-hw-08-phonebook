@@ -61,15 +61,3 @@ const ContactForm = ({ handleClick }) => {
 };
 // }
 export default ContactForm;
-
-// const mapStateProps = state => {
-//   return {};
-// };
-
-// const mapDispathToProps = dispath => {
-//   return {
-//     onAddContact: (name, number) =>
-//       dispath(addContactAction({ name: name, number: number })),
-//   };
-// };
-// export default connect(mapStateProps, mapDispathToProps)(ContactForm);

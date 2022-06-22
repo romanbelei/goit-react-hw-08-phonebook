@@ -38,28 +38,3 @@ export default function ContactList() {
     </ul>
   );
 }
-
-// ContactList.propTypes = {
-//   contacts: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       id: PropTypes.string.isRequired,
-//       name: PropTypes.string.isRequired,
-//       number: PropTypes.string.isRequired,
-//     })
-//   ),
-// };
-
-// const mapStateProps = state => {
-//   return {
-//     filter: state.contacts.filter,
-//     contacts: state.contacts.items,
-//   };
-// };
-
-// const mapDispathToProps = dispath => {
-//   return {
-//     removeContact: contactId => dispath(removeContactAction(contactId)),
-//   };
-// };
-
-// export default connect(mapStateProps, mapDispathToProps)(ContactList);

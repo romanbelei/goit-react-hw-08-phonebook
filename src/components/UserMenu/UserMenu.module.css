@@ -1,0 +1,8 @@
+.container {
+  display: 'flex';
+  alignitems: 'center';
+}
+.name {
+  fontweight: 700;
+  marginright: 12;
+}

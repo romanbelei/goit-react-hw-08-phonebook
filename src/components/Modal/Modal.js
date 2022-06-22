@@ -14,16 +14,10 @@ const customStyles = {
   },
 };
 
-// Make sure to bind modal to your appElement (https://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement('#root');
 
 function ModalWindow({ children, buttonClose }) {
-  // let subtitle;
   const [modalIsOpen, setIsOpen] = React.useState(true);
-
-  // function openModal() {
-  //   setIsOpen(true);
-  // }
 
   function closeModal() {
     setIsOpen(false);
@@ -48,10 +42,8 @@ function ModalWindow({ children, buttonClose }) {
         )}
         {children}
       </Modal>
-      {/* {!modalIsOpen && <Navigate to={redirectTo} />} */}
     </div>
   );
 }
 
 export default ModalWindow;
-// ReactDOM.render(<App />, appElement);

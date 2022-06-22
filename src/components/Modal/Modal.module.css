@@ -36,9 +36,9 @@
   cursor: pointer;
 }
 
-.buttonClose:hover,
+/* .buttonClose:hover,
 .buttonClose:focus {
   background-color: var(--accent-color);
   color: black;
   box-shadow: var(--main-shadow);
-}
+} */
